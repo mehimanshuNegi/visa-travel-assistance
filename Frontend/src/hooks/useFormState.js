@@ -1,0 +1,16 @@
+import { useState } from 'react';
+
+export function useFormState(initialState = {}) {
+  const [formData, setFormData] = useState(initialState);
+
+  const handleChange = (field, value) => {
+    setFormData((prev) => ({
+      ...prev,
+      [field]: value,
+    }));
+  };
+
+  const resetForm = () => setFormData(initialState);
+
+  return { formData, handleChange, resetForm, setFormData };
+}
