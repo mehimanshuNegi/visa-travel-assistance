@@ -66,7 +66,7 @@ export default function HomePage() {
     },
     {
       question: "Do you provide dummy flight tickets for visa applications?",
-      answer: "Yes! We offer secondary travel assistance including flight ticket reservations and hotel booking proof for visa application documentation."
+      answer: "Yes! We offer travel assistance including flight ticket reservations and hotel booking proof for visa application documentation."
     },
     {
       question: "Do you offer travel insurance assistance?",
@@ -76,16 +76,8 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-page text-slate-800">
-      {/* Sample Prototype Disclaimer Notice Banner */}
-      <div className="bg-amber-500/10 border-b border-amber-500/20 px-4 py-2 text-center text-xs font-semibold text-amber-900 flex items-center justify-center gap-2">
-        <Info className="h-4 w-4 text-amber-600 shrink-0" />
-        <span>
-          Prototype Preview: Visa Services Platform — Prices and document lists are sample placeholders for client review.
-        </span>
-      </div>
-
       {/* ===================================================
-          1. HERO SECTION (VISA SERVICES FIRST)
+          1. HERO SECTION
       ==================================================== */}
       <section className="relative overflow-hidden bg-brand-dark py-16 md:py-24 text-white">
         {/* Subtle background ambient glows */}
@@ -96,7 +88,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-3xl text-center">
             {/* Small Label */}
             <span className="inline-block rounded-full bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-sky-300 backdrop-blur-md border border-white/10 shadow-xs mb-4">
-              VISA SERVICES FIRST
+              VISA SERVICES
             </span>
 
             {/* Large Main Headline */}
@@ -359,7 +351,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
             <div>
               <span className="inline-block rounded-full bg-slate-200 px-3 py-1 text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-2">
-                Secondary Travel Services
+                Travel Services
               </span>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-brand-dark">
                 Complete Your Travel Plans

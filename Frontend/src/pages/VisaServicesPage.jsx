@@ -43,14 +43,6 @@ export default function VisaServicesPage() {
 
   return (
     <div className="min-h-screen bg-page text-slate-800 pb-16">
-      {/* Sample Prototype Disclaimer Notice Banner */}
-      <div className="bg-amber-500/10 border-b border-amber-500/20 px-3 py-1.5 text-center text-[11px] font-semibold text-amber-900 flex items-center justify-center gap-2">
-        <Info className="h-3.5 w-3.5 text-amber-600 shrink-0" />
-        <span>
-          Prototype Preview: Visa details and prices are sample placeholders for client review.
-        </span>
-      </div>
-
       {/* Hero Header Section */}
       <section className="bg-brand-dark py-6 sm:py-12 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">

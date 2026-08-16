@@ -50,14 +50,6 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-page text-slate-800 pb-16">
-      {/* Sample Prototype Disclaimer Notice Banner */}
-      <div className="bg-amber-500/10 border-b border-amber-500/20 px-3 py-1.5 text-center text-[11px] font-semibold text-amber-900 flex items-center justify-center gap-2">
-        <Info className="h-3.5 w-3.5 text-amber-600 shrink-0" />
-        <span>
-          Prototype Preview: Contact details are sample placeholders.
-        </span>
-      </div>
-
       {/* 1. Contact Hero */}
       <section className="bg-brand-dark py-8 sm:py-16 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
@@ -244,7 +236,7 @@ export default function ContactPage() {
                     onChange={handleChange}
                     className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-xs font-semibold text-brand-dark outline-none focus:border-brand"
                   >
-                    <option value="Visa Assistance">Visa Assistance (Primary Service)</option>
+                    <option value="Visa Assistance">Visa Assistance</option>
                     <option value="Dummy Flight Ticket">Dummy Flight Ticket</option>
                     <option value="Dummy Hotel Reservation">Dummy Hotel Reservation</option>
                     <option value="Travel Insurance">Travel Insurance</option>
@@ -288,10 +280,7 @@ export default function ContactPage() {
       <section className="py-6 bg-white border-t border-slate-200">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <div className="rounded-2xl bg-brand-dark text-white p-5 text-center shadow-md">
-            <span className="text-[10px] font-bold uppercase text-sky-400 tracking-wider">
-              Primary Business Service
-            </span>
-            <h3 className="text-base sm:text-xl font-extrabold mt-1">
+            <h3 className="text-base sm:text-xl font-extrabold">
               Need Visa Assistance?
             </h3>
             <p className="mt-1 text-xs text-slate-300 max-w-md mx-auto">

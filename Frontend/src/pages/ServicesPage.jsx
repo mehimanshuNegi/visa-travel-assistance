@@ -40,14 +40,6 @@ export default function ServicesPage() {
 
   return (
     <div className="min-h-screen bg-page text-slate-800 pb-16">
-      {/* Sample Prototype Disclaimer Notice Banner */}
-      <div className="bg-amber-500/10 border-b border-amber-500/20 px-3 py-1.5 text-center text-[11px] font-semibold text-amber-900 flex items-center justify-center gap-2">
-        <Info className="h-3.5 w-3.5 text-amber-600 shrink-0" />
-        <span>
-          Prototype Preview: Secondary travel services details and fees are sample placeholders.
-        </span>
-      </div>
-
       {/* Hero Section */}
       <section className="bg-brand-dark py-8 sm:py-16 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
@@ -158,9 +150,6 @@ export default function ServicesPage() {
       {/* Primary Visa Cross-Sell CTA Banner */}
       <section className="bg-brand-dark py-8 text-white border-t border-slate-800">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <span className="text-[10px] font-bold uppercase tracking-wider text-sky-400">
-            Primary Service
-          </span>
           <h2 className="mt-1 text-lg sm:text-2xl font-extrabold">
             Need Visa Assistance Too?
           </h2>

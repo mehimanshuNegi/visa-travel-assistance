@@ -62,10 +62,10 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Secondary Services */}
+          {/* Travel Services */}
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-sky-400">
-              Secondary Services
+              Travel Services
             </h3>
 
             <div className="mt-4 space-y-2.5 text-xs sm:text-sm">

@@ -65,14 +65,6 @@ export default function VisaCountryPage() {
 
   return (
     <div className="min-h-screen bg-page text-slate-800 pb-20">
-      {/* Sample Prototype Disclaimer Banner */}
-      <div className="bg-amber-500/10 border-b border-amber-500/20 px-3 py-1.5 text-center text-[11px] font-semibold text-amber-900 flex items-center justify-center gap-2">
-        <Info className="h-3.5 w-3.5 text-amber-600 shrink-0" />
-        <span>
-          Prototype Preview: Visa details for {country.country} are sample placeholders.
-        </span>
-      </div>
-
       {/* ==============================================
           1. DESTINATION HERO (CLEAN & DIRECT)
       =============================================== */}

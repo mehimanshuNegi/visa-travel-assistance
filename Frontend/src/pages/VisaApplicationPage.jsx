@@ -39,14 +39,6 @@ export default function VisaApplicationPage() {
 
   return (
     <div className="min-h-screen bg-page text-slate-800 pb-16">
-      {/* Sample Prototype Disclaimer Notice Banner */}
-      <div className="bg-amber-500/10 border-b border-amber-500/20 px-4 py-2 text-center text-xs font-semibold text-amber-900 flex items-center justify-center gap-2">
-        <Info className="h-4 w-4 text-amber-600 shrink-0" />
-        <span>
-          Frontend Demo Mode: Applications submitted here are saved in local state for UI demonstration.
-        </span>
-      </div>
-
       {/* Header */}
       <section className="border-b border-slate-200 bg-brand-dark text-white py-12 md:py-16">
         <div className="mx-auto max-w-4xl px-6">
@@ -83,11 +75,11 @@ export default function VisaApplicationPage() {
               </div>
 
               <h2 className="mt-6 text-2xl font-bold text-brand-dark">
-                Application Draft Submitted!
+                Application Submitted!
               </h2>
 
               <p className="mx-auto mt-3 max-w-lg text-xs sm:text-sm leading-relaxed text-muted">
-                Thank you for completing the prototype application form. Once the backend and database integration is finalized by the team, submitted details will be sent directly to the visa processing dashboard.
+                Thank you for completing the application form. Our visa processing team will review your submitted details and contact you shortly.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
@@ -323,7 +315,7 @@ export default function VisaApplicationPage() {
                   Submit Application →
                 </button>
                 <p className="mt-2 text-center text-[11px] text-muted">
-                  Frontend prototype submission. No payment will be processed.
+                  No payment will be processed at this step.
                 </p>
               </div>
 
