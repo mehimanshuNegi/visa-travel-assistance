@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
 import VisaServicesPage from './pages/VisaServicesPage';
+import VisaCountryPage from './pages/VisaCountryPage';
 import VisaApplicationPage from './pages/VisaApplicationPage';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="services" element={<ServicesPage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="visa" element={<VisaServicesPage />} />
+          <Route path="visa/:countryId" element={<VisaCountryPage />} />
           <Route path="visa/application" element={<VisaApplicationPage />} />
         </Route>
       </Routes>
