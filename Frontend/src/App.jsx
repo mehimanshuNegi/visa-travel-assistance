@@ -7,10 +7,12 @@ import ContactPage from './pages/ContactPage';
 import VisaServicesPage from './pages/VisaServicesPage';
 import VisaCountryPage from './pages/VisaCountryPage';
 import VisaApplicationPage from './pages/VisaApplicationPage';
+import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />

@@ -199,8 +199,8 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* 5-Column Responsive Card Grid reusing VisaCard component */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+          {/* 2-Column Mobile Card Grid matching Visa Services page */}
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             {popularDestinations.map((country) => (
               <VisaCard key={country.id} countryData={country} />
             ))}
